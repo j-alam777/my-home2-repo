@@ -1,0 +1,208 @@
+* {
+        margin: 0;
+        font-family:'Open Sans', sans-serif;     
+}
+
+.text-primary{
+        color:#FD6E0A;
+}
+
+.btn-primary{
+                height: 64;
+                border-radius: 5px;
+                background-color: #FD6E0A;
+                color:white;
+                font-weight:700;
+                font-size: 20px;
+                border: 0;
+                padding:18px 35px;
+        
+}
+
+nav{
+                display: flex;
+                justify-content: space-between;
+                margin: 50px 200px;
+}
+.nav-title{
+        font-size: 45px;
+        font-weight: 800;
+}
+nav ul{
+        display:flex;
+        align-items: center;
+}
+nav li{
+        list-style: none;
+        margin-left: 50px;        
+}
+        
+.header{
+        background-color: rgb(235, 225, 211);
+        background-image: url('../images/header_bg.png'), url('../images/developer.png');
+        background-repeat: no-repeat;
+        background-position:bottom right, left;
+        
+}
+
+.banner{
+        margin: 0px 50px 0px 200px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;    
+}
+
+.banner-title{
+        font-size: 85px;
+        font-weight: 800;
+        
+
+}
+.banner-sub-title{
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 20px;
+
+}
+.banner-description{
+        color: midnightblue;
+        font-size: 16px;
+        margin-bottom: 30px;
+}
+
+.dev-pic{
+        height: 700px;
+        width: 600px;
+
+}
+main{
+        max-width: 1140px;
+        margin: 0 auto;
+}
+section{
+        margin-top: 30px;
+}
+.about{
+        
+        background-color: #FFF8f3;
+        border-radius: 10px;
+        padding: 130px 150px;
+        text-align: center;
+}
+.about-title{
+       
+        margin-bottom: 30px;
+        font-size: 35px;
+}
+.section-title{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 50px;
+}
+.section-description{
+        color: #757575;
+        font-size: 18px;
+        margin-bottom: 30px;
+}
+.about-info-container{
+        display: flex;
+        justify-content: space-around;
+}
+.about .info-title{
+        font-size: 20px;
+        color:#757575;
+        margin-top: 20px;
+}
+.info-description{
+        font-size: 20px;
+        font-weight: 700;
+        color: #757575; 
+}
+.skills-container{
+        display: flex;
+        gap: 24px;
+        font-weight: 800;
+}
+.skill{
+        background: #FFF8f3;
+        box-shadow: 0px 6px 50px, rgba(0, 0, 0, 06);
+        border-radius: 5px;
+        padding: 30px;
+}
+.skill-title{
+        
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+.skill-description{
+        color: #757575;
+}
+.resume-content{
+        display: flex;
+        gap: 24px;
+}      
+.resume .title{
+        font-size: 45;
+        font-weight: 800;
+        color: #494242;
+        margin-bottom: 10px;      
+}
+.resume .sub-title{
+        font-size: 25;
+        font-weight: 600;
+        color: #bbacac;
+        margin-bottom: 20px;
+}
+.resume-button{
+        text-align: center;
+        margin-top: 50px;
+}
+.resume .description{
+        font-size: 25;
+        font-weight: 600;
+        color: #bbacac;
+}
+.resume-item{
+        margin-top: 30px;
+        margin-bottom: 30px;
+} 
+
+.contact{
+        display: flex;
+        gap: 100px;
+        background: #FFF8f3;
+        padding: 130px 200px;
+        border-radius: 5px;
+        margin: 1px;
+}
+.contact .section-title{
+        text-align: left;
+        
+}
+.contact input[type=text], [type=email], textarea{
+        margin: bottom 24px;
+        margin-top: 3px;
+        width: 100%; 
+        padding: 18px 30px;
+        border: 0;
+        border-radius: 5px;
+        
+}
+.contact a{
+        text-decoration: none;
+        }
+.btn-con{
+        background-color: #f2efed;
+        height: 64;
+        border: 1px;
+        border-style: solid;
+        border-color: #FD6E0A;
+        border-radius: 5px;
+        color: #FD6E0A;
+        font-size: 20px;
+        font-weight: 700;
+        padding:18px 35px;       
+}
