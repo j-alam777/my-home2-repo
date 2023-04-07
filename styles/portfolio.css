@@ -207,5 +207,26 @@ section{
         padding:18px 35px;       
 }
 .footer{
+        display: flex;
         background-color: black;
+        height: 300px;
+        color: white;
+        justify-content: space-around;
+        padding: 200px 250px 150px 250px;
+        gap: 500px;
+}
+.mail{
+        background-color: black;
+        border: solid;
+        border-radius: 10px;
+        border-color: white;
+        font-size:larger;
+        font-weight:bold;
+        margin-bottom: 20px;
+}
+.btn-subscribe{
+        font-size: 20px;
+        font-weight: 900;
+        padding: 10px 50px;
+        border-radius: 10px;
 }
